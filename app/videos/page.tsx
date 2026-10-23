@@ -1,0 +1,5 @@
+import { siteConfig } from "../config";
+
+export default function VideosPage() {
+  return <main className="inner-page public-videos-page"><div className="shell"><div className="video-public-hero"><div><span className="eyebrow">Tech with Afzarul videos</span><h1>Practical technology, explained clearly.</h1><p className="page-lede">Watch infrastructure, DevOps, automation, AI, and technical learning content through the official channel.</p><a className="button" href={siteConfig.youtube} target="_blank" rel="noopener noreferrer">Visit YouTube channel <span>↗</span></a></div><div className="video-public-card"><span className="video-public-icon">▶</span><span className="eyebrow">Public video library</span><h2>New tutorials and engineering lessons.</h2><p>Uploaded videos are managed privately by the site administrator. Public visitors can watch published content without seeing upload controls.</p><a href={siteConfig.youtube} target="_blank" rel="noopener noreferrer">Open @techwithafzarul ↗</a></div></div></div></main>;
+}

@@ -1,0 +1,2 @@
+import { ProjectGrid, SectionIntro } from "../components/Sections";
+export default function Projects() { return <main className="inner-page"><div className="shell"><SectionIntro eyebrow="Engineering projects & experiments" title="Practical solutions to real technical problems." copy="A growing body of infrastructure, DevOps, automation, and AI concepts. Every project is labeled honestly so the engineering thinking remains the focus." /><ProjectGrid /></div></main>; }
